@@ -1,5 +1,5 @@
 <?php
-if (ob_get_level()) { ob_end_clean(); }
+// Script part of: https://github.com/jeffdrumgod/wordpress-healt-check-php
 global $wpdb;
 
 function rewriteDie(){
